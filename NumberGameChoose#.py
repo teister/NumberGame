@@ -4,7 +4,7 @@ def game():
     running = True
     #count var to count how many numbers have been entered
     count = 0
-    print("Welcome to the number game! You will get a random number from 1-100, and you will have to make sure the list stays in order! Good luck!")
+    print("Welcome to the number game! You will get a random number, put it somewhere in a list, and make sure the list stays in order from lowest to highest! Good luck!")
     #how long should the list be?
     amount = input("how long should the list be?")
     
