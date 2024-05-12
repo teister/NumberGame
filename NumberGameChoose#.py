@@ -23,6 +23,10 @@ def game():
         nums[x] = ''
     nums[amount + 1] = amount*21
 
+    #tell the user the range of random numbers
+    if amount < 10: print("the range of random numbers is from 1 to ",20*amount)
+    if amount >= 10: print("the range of random numbers is from 1 to ",50*amount)
+    
     #print the 'board' before the game starts, to make it look better.
     print("========================")
     for x in range(1,amount +1): print(x,":")
